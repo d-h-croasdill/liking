@@ -1,0 +1,57 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+table{
+    min-width: 500px;
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+    margin:0;
+    top:0;
+    left:0;
+
+}
+
+.white-highlight {
+    background-color: rgba(254 254 254 / 75%);
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.matrix-item{
+    border:1px solid black;
+}
+
+#matrix{
+    height:200px;
+    width:500px;
+    gap:2px;
+    display: grid; 
+    grid: '1fr 1fr 1fr 4fr'
+        '. . . 4fr'
+        '. . . 4fr';
+}
+
+
+/* ||||| CAPTCHA STUFF ||||| */
+
+.captchaholder{
+    width:100%;
+    display: grid;
+    grid: "1fr";
+    align-content: center;
+    background-color: aqua;
+}
+
+.captcha{
+    width:100px;
+    height:100px;
+    background-color: blanchedalmond;
+}
